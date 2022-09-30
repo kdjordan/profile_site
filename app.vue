@@ -1,5 +1,13 @@
+<script setup>
+import '@/assets/css/main.css'
+</script>
 <template>
- <NuxtLayout>
-  <NuxtPage />
- </NuxtLayout>
+ <NavBar />
+ <div>
+    <NuxtPage />
+ </div>
 </template>
+
+<style>
+    
+</style>

@@ -3,5 +3,5 @@
 
 </script>
 <template>
-    <BlogPostList />
+    <h1>HOME</h1>
 </template>
