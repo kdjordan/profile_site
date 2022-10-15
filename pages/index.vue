@@ -1,7 +1,8 @@
 <script setup>
-
-
 </script>
 <template>
-    <h1>HOME</h1>
+    <div>
+        <h1>HOME</h1>
+        <BlogPostList />
+    </div>
 </template>

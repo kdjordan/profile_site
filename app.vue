@@ -1,8 +1,11 @@
 <script setup>
-import '@/assets/css/main.css'
+import '@/assets/css/main.css';
+useHead({
+   title: 'KDJ'
+})
 </script>
 <template>
- <NavBar />
+   <NavBar />
  <div>
     <NuxtPage />
  </div>
