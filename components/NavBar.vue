@@ -66,7 +66,3 @@
 </nav>
 
 </template>
-
-<style lang="">
-    
-</style>

@@ -1,9 +1,10 @@
 <script setup>
 import '@/assets/css/main.css';
 useHead({
-   title: 'KDJ'
+   title: 'KDJ',
 })
 </script>
+
 <template>
    <NavBar />
  <div>

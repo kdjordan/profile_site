@@ -2,8 +2,6 @@
 const { data: blogPostList } = useAsyncData('blogPostList', () => {
     return queryContent('/blog').find()
 })
-
-console.log('***', blogPostList)
 </script>
 
 <template>

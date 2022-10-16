@@ -7,8 +7,17 @@ module.exports = {
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
   ],
+  darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        lime: '#65f640',
+        midnightBlue: '#1d133b'
+      },
+      fontFamily: {
+        archivo: ['Archivo', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
