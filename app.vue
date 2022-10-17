@@ -1,10 +1,10 @@
 <script setup>
 import '@/assets/css/main.css';
 useHead({
-   title: 'KDJ',
-   bodyAttrs: {
-      class: 'bg-midnight text-lime scroll-smooth'
-   }
+  title: 'KDJ',
+  meta: [
+    { name: 'Kevin Jordan Dev', content: 'Good stuff :))' }
+  ]
 })
 </script>
 

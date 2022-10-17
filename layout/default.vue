@@ -1,3 +1,5 @@
+<!-- <script setup>
+</script>
 <template>
     <nav>
         <NuxtLink to="/">HOME</NuxtLink>
@@ -5,4 +7,4 @@
     <main>
         <slot />
     </main>
-</template>
+</template> -->
