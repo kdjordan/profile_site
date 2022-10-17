@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       colors : {
         lime: '#65f640',
-        midnightBlue: '#1d133b'
+        midnight: '#1d133b'
       },
       fontFamily: {
         archivo: ['Archivo', 'sans-serif']
