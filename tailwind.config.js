@@ -15,7 +15,8 @@ module.exports = {
         midnight: '#1d133b'
       },
       fontFamily: {
-        archivo: ['Archivo', 'sans-serif']
+        archivo: ['Archivo', 'sans-serif'],
+        oswald: ['Oswald', 'sans-serif']
       }
     },
   },

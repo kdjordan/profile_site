@@ -2,29 +2,17 @@
 import { gsap } from 'gsap';
 
 
-    onMounted(() => {
+onMounted(() => {
     const skills = document.querySelector('.skills')
-    let row_width = skills.getBoundingClientRect().width;
-	let row_item_width = skills.children[0].getBoundingClientRect().width;
-	let initial_offset = ((2 * row_item_width) / row_width) * 100 * -1;
-	// let x_translation = initial_offset * -1;
+    const kevin = document.getElementById('kevin')
+    const jordan = document.getElementById('jordan')
 	
-
-	gsap.set(skills, {
-		xPercent: `${initial_offset}`
-	});
-
-	let duration = 1;
-
-    console.log(skills.getBoundingClientRect().width)
-    
     var tl = gsap.timeline();
-    tl.to(skills, {
-        ease: "none",
-        duration: duration,
-        xPercent: 0,
-        repeat: -1
-    });
+
+    tl.from(kevin, {xPercent: -100, duration: 3})
+    .from(jordan, {xPercent: -100, duration: 3}, '<1')
+    .from(skills, {ease: "back(2)",duration: 3, xPercent: -100,})
+    ;
 }) 
 
 
@@ -33,9 +21,9 @@ import { gsap } from 'gsap';
     <div>
         <section>
             <div class="w-full mx-auto">
-                <div class="w-full text-container overflow-hidden">
-                    <h2 class="hero-text">KEVIN</h2>
-                    <h2 class="hero-text">JORDAN</h2>
+                <div class="w-full text-container overflow-hidden font-oswald">
+                    <h2 class="hero-text" id="kevin">KEVIN</h2>
+                    <h2 class="hero-text" id="jordan">JORDAN</h2>
                 </div>
             </div>
         </section>
@@ -55,10 +43,10 @@ import { gsap } from 'gsap';
 <style>
 .hero-text {
     display: inline-block;
-    padding-top: 5vh;
-    line-height:27vh;
+    padding-top: 3vh;
+    line-height:21vh;
     font-size: 25vw;
-    animation: shift-left 6s ease;
+    /* animation: shift-left 6s ease; */
 }
 
 
