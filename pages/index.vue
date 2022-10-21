@@ -18,17 +18,15 @@ onMounted(() => {
 
 </script>
 <template>
-    <div>
-        <section>
+    <div class="mt-10">
+        <section class="h-full">
             <div class="w-full mx-auto">
                 <div class="w-full text-container overflow-hidden font-oswald">
                     <h2 class="hero-text" id="kevin">KEVIN</h2>
                     <h2 class="hero-text" id="jordan">JORDAN</h2>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="w-full flex justify-around pt-2 lg:text-5xl md:text-2xl sm:text-xl skills overflow-hidden">
+            <div class="w-full flex justify-between px-2 pt-2 lg:text-5xl md:text-2xl sm:text-xl skills overflow-hidden">
                 <div class="text-skills">VUE</div>
                 <div class="text-skills">NUXT</div>
                 <div class="text-skills">NODE</div>
